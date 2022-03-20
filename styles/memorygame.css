@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(142, 55, 55, 0.4);
+    padding: 1rem;
+    border: 5px dotted rgba(150,12,89, 1);
+}
