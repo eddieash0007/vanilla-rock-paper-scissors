@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #15202B;
+    color: #ffffff;
+}
+
+.choices{
+    display: inline-block;
+   
+}
+
+.rock{
+    background: url(../assets/rockpaper/stone.png);
+    height: 5em;
+    width: 5em;
+    background-size: 5em;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+
+
+.paper{
+    background: url(../assets/rockpaper/paper.png);
+    height: 5em;
+    width: 5em;
+    background-size: 5em;
+    background-repeat: no-repeat;
+    border: none;
+}
+.scissors{
+    background: url(../assets/rockpaper/scissors.png);
+    height: 5em;
+    width: 5em;
+    background-size: 5em;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.destiny{
+    display: block;
+    font-size: 20px;
+
+}

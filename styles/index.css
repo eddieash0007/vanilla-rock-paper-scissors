@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #15202B;
+    color: #ffffff;
+}
+
+
+
+.rock:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: white;
+}
+.memory:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: white;
+}
+.whac:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: white;
+}
+
+.rock{
+    box-sizing: border-box;
+    border-radius: .5em;
+    display: block;
+    padding: 2em;
+    color: #ffffff;
+    background-color: rgb(223, 117, 154);
+    margin-top: 2em;
+    font-size: 22px;
+    text-decoration: none;
+}
+.memory{
+    box-sizing: border-box;
+    border-radius: .5em;
+    display: block;
+    padding: 2em;
+    color: #ffffff;
+    background-color: rgb(117, 177, 239);
+    margin-top: 1em;
+    font-size: 22px;
+    text-decoration: none;
+}
+.whac{
+    box-sizing: border-box;
+    border-radius: .5em;
+    display: block;
+    padding: 2em;
+    color: #ffffff;
+    background-color: rgb(63, 130, 108);
+    margin-top: 1em;
+    font-size: 22px;
+    text-decoration: none;
+}
+

@@ -79,8 +79,8 @@ function createBoard(){
         const card = document.createElement('img')
         card.setAttribute('src', '../assets/memoryGame/images/dices.png')
         card.setAttribute('data-id', i)
-        card.setAttribute('width', '100px')
-        card.setAttribute('height', '100px')
+        card.setAttribute('width', '70em')
+        card.setAttribute('height', '70em')
         card.setAttribute('style', 'margin:5px;')
         card.addEventListener('click', flipCard)
         gridDisplay.appendChild(card)
@@ -102,8 +102,8 @@ function checkMatch() {
 
     if (cardsChosen[0] == cardsChosen[1]){
         console.log('You found a match!')
-        cards[optionOneID].setAttribute('src', '../assets/memoryGame/images/white.png')
-        cards[optionTwoID].setAttribute('src', '../assets/memoryGame/images/white.png')
+        cards[optionOneID].setAttribute('src', '../assets/memoryGame/images/checked.png')
+        cards[optionTwoID].setAttribute('src', '../assets/memoryGame/images/checked.png')
         cards[optionOneID].removeEventListener('click',flipCard)
         cards[optionTwoID].removeEventListener('click',flipCard)
         cardsWon.push(cardsChosen)
@@ -117,7 +117,7 @@ function checkMatch() {
     cardsChosenIds = []
 
     if(cardsWon.length == cardArray.length/2){
-        resultDisplay.textContent = 'Congratulations you found them all'
+        resultDisplay.textContent = 'Congratulations you found them all🎊🎊🎊'
     }
 }
 

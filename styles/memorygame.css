@@ -1,17 +1,32 @@
-body{
-    display: flex;
+html{
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    font-size: 16px;
+
 }
 
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    background: #15202B;
+    color: #ffffff;
+    
+}
+
+/* .score{
+    position: absolute;
+    top: 5em;
+    left: 5em;
+} */
+
 #grid{
-    width: 500px;
-    height: 400px;
+    width: 21em;
+    height: 19em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     background: rgb(142, 55, 55, 0.4);
-    padding: 1rem;
+    margin: 0;
     border: 5px dotted rgba(150,12,89, 1);
 }
