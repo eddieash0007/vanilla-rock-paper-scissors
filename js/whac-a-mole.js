@@ -48,4 +48,8 @@ function countDown(){
     }
 }
 
+function playagain(){
+    location.reload()
+}
+
 let countDownTimerID = setInterval(countDown, 1000)

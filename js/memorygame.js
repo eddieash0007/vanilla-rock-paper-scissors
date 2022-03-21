@@ -101,7 +101,7 @@ function checkMatch() {
 
 
     if (cardsChosen[0] == cardsChosen[1]){
-        console.log('You found a match!')
+        
         cards[optionOneID].setAttribute('src', '../assets/memoryGame/images/checked.png')
         cards[optionTwoID].setAttribute('src', '../assets/memoryGame/images/checked.png')
         cards[optionOneID].removeEventListener('click',flipCard)
@@ -125,7 +125,7 @@ function flipCard() {
     const cardId = this.getAttribute('data-id')
     cardsChosen.push(cardArray[cardId].name)
     cardsChosenIds.push(cardId)
-    console.log(cardsChosenIds)
+    
     this.setAttribute('src',cardArray[cardId].img)
     if (cardsChosen.length === 2){
         setTimeout( checkMatch, 500)

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 html{
     /* display: flex;
     justify-content: center;
@@ -13,11 +14,17 @@ body{
     
 }
 
-/* .score{
+.score{
     position: absolute;
-    top: 5em;
+    top: 1em;
     left: 5em;
-} */
+}
+
+
+.instructions{
+    margin-bottom: 5em;
+
+}
 
 #grid{
     width: 21em;
